@@ -1,0 +1,9 @@
+a {
+  color: $theme_color;
+  &:hover {
+    color: darken($color: $theme_color, $amount: 10);
+  }
+}
+section {
+  padding: 3rem 0;
+}
